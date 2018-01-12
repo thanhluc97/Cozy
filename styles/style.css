@@ -84,11 +84,13 @@ content .container{
 
 }
 .info img{
+	 border: 1px solid #ddd; /* Gray border */
 	margin-left: 20px;
 	margin-top: 40px;
 }
-.info .col-md-3>img:hover{
-	background: blue;
+.info img{
+	background: green;
+	  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .info h2{
 	margin-top: 40px;
@@ -161,4 +163,66 @@ content .container{
 	padding: 20px;
 	border:1px solid #DCDCDC;
 	text-align: center;
+}
+
+.package{
+	background: white;
+	padding: 40px 0px 0px 0px;
+	margin: 50px 100px 0px 100px;
+}
+.lh{
+	margin:40px 0px 40px 0px;
+	text-align: center;
+
+}
+.app{
+	padding: 40px 0px 0px 0px;
+	margin: 50px 100px 0px 100px;
+	background: white;
+}
+.app img{
+
+	margin-bottom: 20%;
+	width: 40px;
+}
+
+.km{
+		padding: 40px 0px 100px 0px;
+	margin: 50px 100px 0px 100px;
+	background: white;
+}
+.tit-km a{
+	padding-left: 50px;
+}
+.xam{
+	color:#6D6D6D;
+}
+.green b{
+	color: green;
+
+}
+.tit-km>a:hover{
+	color:green;
+	text-decoration: none;
+}
+.img-km{
+	background: green;
+	  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.cont-km{
+	    font-weight: bold;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.km a{
+	color: #6D6D6D;
+}
+.km .col-md-9>a:hover{
+	color: green;
+	text-decoration: none;
+}
+.km .col-md-9 p{
+	font-size: 12px;
 }
