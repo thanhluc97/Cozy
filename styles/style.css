@@ -1,0 +1,164 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background: pink;
+
+}
+#container .top
+{
+	background: #340001;
+	height: 21px;
+	border-bottom: 4px solid #d596a8;
+}
+.menu{
+	background: white;
+}
+.menu .logo{
+	margin-top: 10px;
+	margin-left: 70px;
+	margin-right: 10px;
+	width: 80%;
+}
+
+
+.navbar-nav {
+	margin-top: 10px;
+	padding:23px;
+}
+.navbar-nav li a{
+	color: black;
+	font-family: 'Patrick Hand', cursive;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-right: 1px solid black;
+
+}
+.navbar-nav>li>a:hover{
+	background: none;
+	color: pink;
+	border-bottom: 5px solid pink;
+}
+content .container{
+	width: 90%;
+}
+.carousel-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.news
+{
+	margin-top: 30px;	
+}
+.news p{
+	color: white;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.news>p>a:hover{
+
+	color:#989898;
+	text-decoration: none;
+}
+.news a{
+	margin-right: 10px;
+	color: white;
+}
+.social-bar{ 
+	margin-top:100px;
+	background: white;
+}
+.icon{
+	text-align: center;
+	width: 8%;
+}
+.top-content{
+	margin-top: 40px;
+}
+.info{
+	margin-top: 40px;
+	background: white;
+
+}
+.info img{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.info .col-md-3>img:hover{
+	background: blue;
+}
+.info h2{
+	margin-top: 40px;
+	    color: #a2a2a2;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding-bottom: 5px;
+    line-height: 24px;
+}
+
+.info p{
+	margin-right: 300px;
+}
+.footer{
+	padding-bottom: 10px;
+	margin-top:40px;
+	background: white;
+}
+.footer a{
+	margin-right: 10px;
+	font-size:10px;
+	margin-bottom: 20px;
+}
+
+#container .bot
+{
+	background: #340001;
+	height: 10px;
+}
+.footer .menu-bot{
+	color: green;
+}
+.footer .change{
+	color:#848484;
+}
+.footer .col-md-4>a:hover{
+	color:green;
+	text-decoration: none;
+}
+.footer .col-md-8>a:hover{
+	color: none;
+	text-decoration: none;
+}
+.footer .col-md-8>a{
+	color:#848484;
+}
+.copyright p{
+	color: #848484;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.gallery .container{
+	margin-top: 50px;
+	background: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.gallery-cont{
+	color: #a8736f;
+	font-size:40px;
+	margin-top: 10px;
+}
+.al1{
+	width: 100%;
+}
+.gallery .col-md-3 p{
+	padding: 20px;
+	border:1px solid #DCDCDC;
+	text-align: center;
+}
